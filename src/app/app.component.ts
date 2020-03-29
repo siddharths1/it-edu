@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faRupeeSign } from '@fortawesome/free-solid-svg-icons/faRupeeSign';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'it-edu';
+  faRupeeSign = faRupeeSign;
 }
